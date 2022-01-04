@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inflation Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="row">
+		<div class="input-group">
+			<span class="input-group-text">$</span>
+			<input class="form-control" type="number" id="startdongers">
+		</div>
+		<span class="in">in</span>
+		<div class="input-group">
+			<select class="form-select" id="startyear">
+				<option>1913</option>
+				<option>1914</option>
+				<option>1915</option>
+				<option>2020</option>
+				<option>2021</option>
+				<option selected>2022</option>
+			</select>
+		</div>
+	</div>
+
+	<div class="has">has the same buying power as</div>
+	
+	<div class="row">
+		<div class="input-group">
+			<span class="input-group-text">$</span>
+			<input class="form-control" type="number" id="enddongers">
+		</div>
+		<span class="in">in</span>
+		<div class="input-group">
+			<select class="form-select" id="endyear">
+				<option>1913</option>
+				<option>1914</option>
+				<option>1915</option>
+				<option>2020</option>
+				<option>2021</option>
+				<option selected>2022</option>
+			</select>
+		</div>
+	</div>
+	
+
+
+<script src="keychain.js"></script>
+<script>
+/*
+// api url
+const api_url = "https://api.bls.gov/publicAPI/v2/timeseries/data/";
+
+let _data = {
+	registrationKey: api_key,
+	seriesid: "CUUR0000SA0",
+	startyear:1913,
+	endyear:new Date().getFullYear()
+}
+
+fetch(api_url, {
+method: "POST",
+body: JSON.stringify(_data),
+headers: {"Content-type": "application/json; charset=UTF-8"}
+})
+.then(response => response.json()) 
+.then(json => console.log(json))
+.catch(err => console.log(err));
+
+*/
+
+</script>
+</body>
+</html>
